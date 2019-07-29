@@ -19,12 +19,13 @@ def get_wordnet_pos(word):
 				"R": wordnet.ADV}
 	return tag_dict.get(tag, wordnet.NOUN)
 
-def formTokens(fromFileName,toFileName):
+def formTokens(fromFileName,toFileName='Filtered'+fromFileName):
 	"""
 	Forms tokens from the text named fromFileName and stores them into the file named toFileName.
 	The tokens are stored in such a way that all tokens from a sentence are stored in a single line.
 	These tokens can be used to make co-occurence graphs as they have been utilised later in this project.
 	"""
+	
 	# Load Text from File
 	file = open(fromFileName, 'rt')
 	text = file.read()
