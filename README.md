@@ -1,4 +1,4 @@
-# Graph_Theoretic_Text_Analysis
+# Graph Theoretic Text Analysis
 This seeks out representative keywords from the literary text given by constructing co-occurence graphs in trigram model. For example, when applied to the english transcript of```Sonar Kella```, a bengali detective story, the following top 10 keywords are given:
 ```
 feluda, mukul, hajra, jatayu, bose, dr, rajasthan, fort, mandar, also
