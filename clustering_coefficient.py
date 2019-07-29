@@ -28,17 +28,3 @@ def wordsByClusteringCoefficient(G):
 		print(hola[i][1],end="  ")
 
 	print()
-
-	# nx.draw_shell(G, nlist=[range(5, 10), range(5)], with_labels=True, font_weight='bold')
-
-	# li=[]
-	# for word in st:
-	# 	li.append(word)
-	# 	# print(word)
-	# # print(li)
-
-	# heapq.heapify(li)
-
-	# print(heapq.nlargest(10,li))
-	# # for i in range(0,10):
-	# 	# print(heapq.heappop(li))
