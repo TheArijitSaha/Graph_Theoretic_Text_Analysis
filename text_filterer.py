@@ -12,6 +12,7 @@ def get_wordnet_pos(word):
 	"""
 	Map POS tag to first character lemmatize() accepts
 	"""
+
 	tag=nltk.pos_tag([word])[0][1][0].upper()
 	tag_dict = {"J": wordnet.ADJ,
 				"N": wordnet.NOUN,
@@ -19,13 +20,16 @@ def get_wordnet_pos(word):
 				"R": wordnet.ADV}
 	return tag_dict.get(tag, wordnet.NOUN)
 
-def formTokens(fromFileName,toFileName='Filtered'+fromFileName):
+def formTokens(fromFileName,toFileName="###"):
 	"""
 	Forms tokens from the text named fromFileName and stores them into the file named toFileName.
 	The tokens are stored in such a way that all tokens from a sentence are stored in a single line.
 	These tokens can be used to make co-occurence graphs as they have been utilised later in this project.
 	"""
-	
+
+	if toFileName=="###":
+		toFileName='Filtered'+fromFileName
+
 	# Load Text from File
 	file = open(fromFileName, 'rt')
 	text = file.read()
@@ -125,4 +129,4 @@ def formTokens(fromFileName,toFileName='Filtered'+fromFileName):
 	file1.close()
 
 if __name__=="__main__":
-	formTokens('Texts/THE RED-HEADED LEAGUE.txt','filteredText.txt')
+	formTokens('Texts/Murder_On_The_Orient_Express.txt')
