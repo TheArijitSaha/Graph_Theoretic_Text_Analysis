@@ -15,7 +15,7 @@ The same can be applied to News articles and online articles to tag them in orde
 
 Some other sample generated Graphs are present in the folder "images".
 
-For a more detailed analysis view the PDF "Graph_Theoretic_Text_Analysis.pdf" in this repository.
+For a more detailed analysis view the PDF ["Graph_Theoretic_Text_Analysis.pdf"](Graph_Theoretic_Text_Analysis.pdf) in this repository.
 
 Instructions to run:
 1. Download all files
