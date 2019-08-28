@@ -9,9 +9,11 @@ These words are:
   * Important geaographic locations (rajasthan, fort, mandar)
   * Some descripancies (also)
 
-This project aims to tag a text with keywords or find representative keywords for a text. The same can be applied to News articles and online articles to tag them in order to be able to group them based on keywords.
+![alt text](https://github.com/TheArijitSaha/Graph_Theoretic_Text_Analysis/blob/master/images/forReadme.png?raw=true)
 
-Some Sample generated Graphs are present in the folder "images".
+The same can be applied to News articles and online articles to tag them in order to be able to group them based on keywords.
+
+Some other sample generated Graphs are present in the folder "images".
 
 For a more detailed analysis view the PDF "Graph_Theoretic_Text_Analysis.pdf" in this repository.
 
